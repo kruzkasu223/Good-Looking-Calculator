@@ -4,6 +4,10 @@
     font-family: Sans-Serif;
 }
 
+body{
+    touch-action: manipulation;
+}
+
 .main{
     position: absolute;
     top: 50%;
@@ -44,6 +48,14 @@
 
 .zero{
     width: 106px;
+}
+
+.equal:active{
+    height: 104px;
+}
+
+.zero:active{
+    width: 104px;
 }
 
 .textview{
@@ -95,4 +107,12 @@
    .zero{
        width: 212px;
    }
+   
+   .equal:active{
+        height: 208px;
+    }
+
+    .zero:active{
+        width: 212px;
+    }
 }
