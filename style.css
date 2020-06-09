@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg{
+    background: linear-gradient(to right, #E91E63, #3F51B5);
+    height: 100%;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    color: #EEE;
+    background: transparent;
+    border: 1.5px solid #E91E93;
+    transition: .2s;
+}
+
+.button:active{
+    width: 48px;
+    height: 48px;
+    font-size: 23px;
+}
+
+.textview{
+    width: 218px;
+    margin: 4px;
+    padding: 5px;
+    font-size: 25px;
+    color: #222;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid #3F51B5;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.operator{
+    background: rgba(0, 0, 0, 0.1);
+    border: 1.5px solid #3F51B5;
+}
+
+.clean{
+    background: rgba(0, 0, 0, 0.15);
+}
