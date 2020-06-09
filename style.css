@@ -37,6 +37,7 @@
 .button:focus{
     outline: none;
 }
+
 .textview{
     width: 218px;
     margin: 4px;
@@ -45,8 +46,6 @@
     color: #222;
     background: rgba(255, 255, 255, 0.1);
     border: 1.5px solid #3F51B5;
-    overflow-x: scroll;
-    overflow-y: hidden;
 }
 
 .operator{
