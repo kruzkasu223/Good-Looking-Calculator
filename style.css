@@ -91,6 +91,10 @@ body{
       height: 96px;
       font-size: 46px;
    }
+
+   .operator{
+       border: 3px solid #3F51B5;
+}
    
    .textview{
       width: 430px;
